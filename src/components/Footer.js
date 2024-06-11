@@ -19,11 +19,9 @@ function Footer() {
         <div className="footerSection">
             <h4>קישורים חשובים</h4>
             <ul>
-                <li><Link to="/ContactPage">אודות</Link></li>
                 <li><Link to="/InformationGeneral">מידע</Link></li>
                 <li><Link to="/ContactPage">צור קשר</Link></li>
-                <li><Link to="/PrivacyPage">מדיניות פרטיות</Link></li>
-                <li><Link to="/ContactPage">תנאי שימוש</Link></li>
+                <li><Link to="/PrivacyPolicy">מדיניות פרטיות ותנאי שימוש</Link></li>
             </ul>
         </div>
         <div className="footerSection">

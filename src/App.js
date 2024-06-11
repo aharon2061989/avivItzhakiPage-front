@@ -8,6 +8,7 @@ import PensionInfo from "./components/PensionInfo";
 import EducationFundInfo from "./components/EducationFundInfo";
 import SeverancePayInfo from "./components/SeverancePayInfo";
 import InformationGeneral from "./components/InformationGeneral";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/EducationFundInfo" element={<EducationFundInfo/>} />
         <Route path="/SeverancePayInfo" element={<SeverancePayInfo/>} />
         <Route path="/InformationGeneral" element={<InformationGeneral/>} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
       </Routes>
       <Footer/>
     </Router>
